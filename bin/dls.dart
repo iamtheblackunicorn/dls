@@ -8,7 +8,7 @@ void displayFileList(){
   for (int i = 0; i < contents.length; i++) {
     var entity = contents[i];
     if (entity is File){
-      print(entity.name);
+      print(entity.path);
     }
     else {
       print(entity.path);
@@ -16,7 +16,7 @@ void displayFileList(){
   }
 }
 
-void main(){
+void main(List<String> arguments){
   if (arguments.length == 1) {
     if (arguments[0] == '--version'){
       versionInfo();
@@ -28,7 +28,7 @@ void main(){
     try {
       displayFileList();
     } catch (e) {
-      print(e)
+      print(e);
     }
   }
 }
