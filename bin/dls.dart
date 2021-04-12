@@ -1,27 +1,28 @@
 import 'dart:io';
-void versionInfo(){
-  print('DLS v.1.0.0\nby Alexander Abraham\na.k.a. "The Black Unicorn"\nlicensed under the MIT license');
+
+void versionInfo() {
+  print(
+      'DLS v.1.0.0\nby Alexander Abraham\na.k.a. "The Black Unicorn"\nlicensed under the MIT license');
 }
-void displayFileList(){
+
+void displayFileList() {
   Directory userDir = new Directory('.');
   var contents = userDir.listSync();
   for (int i = 0; i < contents.length; i++) {
     var entity = contents[i];
-    if (entity is File){
+    if (entity is File) {
       print(entity.path);
-    }
-    else {
+    } else {
       print(entity.path);
     }
   }
 }
 
-void main(List<String> arguments){
+void main(List<String> arguments) {
   if (arguments.length == 1) {
-    if (arguments[0] == '--version'){
+    if (arguments[0] == '--version') {
       versionInfo();
-    }
-    else {
+    } else {
       print('Unrecognized arguments!');
     }
   } else {

@@ -1,5 +1,7 @@
 # DLS :peace_symbol:
 
+[![Build Status](https://travis-ci.com/iamtheblackunicorn/dls.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/dls)
+
 *Linux's "ls" written in Dart* :peace_symbol:
 
 ## About :books:
