@@ -1,4 +1,8 @@
-void displayFileList(bool dotfiles){
+import 'dart:io';
+void versionInfo(){
+  print('DLS v.1.0.0\nby Alexander Abraham\na.k.a. "The Black Unicorn"\nlicensed under the MIT license');
+}
+void displayFileList(){
   Directory userDir = new Directory('.');
   var contents = userDir.listSync();
   for (int i = 0; i < contents.length; i++) {
