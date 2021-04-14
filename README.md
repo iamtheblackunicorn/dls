@@ -6,7 +6,7 @@
 
 ## About :books:
 
-The other day I saw some guy raving on about his kick-ass re-creation of Linux's "ls" utility in Rust. This project is my re-creation of the "ls" utility written in Dart, hence "dls".
+The other day I saw some guy raving on about his kick-ass re-creation of Linux's "ls" utility which he had written in Rust. This project is my re-creation of the "ls" utility written in Dart, hence "dls".
 
 ## Building :hammer:
 
@@ -32,7 +32,7 @@ $ git clone https://github.com/iamtheblackunicorn/dls.git
 cd dls
 ```
 
-- 3.) Compile it!
+- 3.) Compile an executable.
 
 ```bash
 $ make build
@@ -40,7 +40,7 @@ $ make build
 
 ### Installing
 
-Depending on your system, you might have to add the directory `blackunicorn/bin` on to your `$PATH` by either modifying system settings or issuing commands from the command-line. The directory specified has to be created somewhere on your file-system and the executable you just generated has to be moved into this directory.
+Depending on your system, you might have to add the directory `blackunicorn/bin` to your `$PATH` by either modifying system settings or issuing commands from the command-line. The directory specified has to be created somewhere on your file-system and the executable you just generated has to be moved into this directory.
 
 ## Note :scroll:
 
