@@ -6,7 +6,7 @@
 
 ## About :books:
 
-The other day I saw some guy raving on about his kick-ass rexreation of Linux's "ls" utility in Rust. This one is my shot. Period.
+The other day I saw some guy raving on about his kick-ass re-creation of Linux's "ls" utility in Rust. This project is my re-creation of the "ls" utility written in Dart, hence "dls".
 
 ## Building :hammer:
 
@@ -40,9 +40,9 @@ $ make build
 
 ### Installing
 
-Depending on your system, you might have to add the directory `blackunicorn/bin` on to your `$PATH` by either modifying system settings or issuing commands from the command-line. The directory specified has to be created and the executable you just generated has to be moved into this directory.
+Depending on your system, you might have to add the directory `blackunicorn/bin` on to your `$PATH` by either modifying system settings or issuing commands from the command-line. The directory specified has to be created somewhere on your file-system and the executable you just generated has to be moved into this directory.
 
 ## Note :scroll:
 
-- *DLS* :peace_symbol: by Alexander Abraham :black_heart: a.k.a. The Black Unicorn :unicorn:
+- *DLS :peace_symbol:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
 - Licensed under the MIT license.
