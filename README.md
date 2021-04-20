@@ -1,6 +1,6 @@
 # DLS :peace_symbol:
 
-[![Build Status](https://travis-ci.com/iamtheblackunicorn/dls.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/dls)
+[![GitHub CI](https://github.com/iamtheblackunicorn/dls/actions/workflows/dart.yml/badge.svg)](https://github.com/iamtheblackunicorn/dls/actions)
 
 *Linux's "ls" written in Dart.* :peace_symbol:
 
